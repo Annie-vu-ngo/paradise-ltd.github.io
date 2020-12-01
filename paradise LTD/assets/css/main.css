@@ -1,0 +1,208 @@
+body {
+  font-family:W95FA;
+	font-size:15px;
+}
+
+.title{
+  display:flex;
+  font-family:W95FA;
+  font-size: 69px;
+  justify-content:flex-start;
+  padding:9px;
+  margin:0px;
+}
+
+.text{
+  text-align:justify;
+  padding:10px;
+  width:60%;
+  font-family: Arial;
+  font-weight: lighter;
+}
+.nav{
+	display:flex;
+	justify-content:flex-start;
+}
+
+.btn{
+   border-top: 2px solid white;
+   border-left: 2px solid white;
+   border-right: 2px solid black;
+   border-bottom: 2px solid black;
+   padding:10px;
+   margin:10px;
+  background:#bdbebd;
+}
+
+.btn:hover{
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  cusor:pointer;
+}
+
+.container{
+	display:flex;
+  justify-content:flex-start;
+  flex-wrap:wrap;
+ }
+
+.item{
+  width:16.66%;
+  padding:10px;
+  text-align:left;
+}
+
+.item img {
+  max-width:100%;
+  display:inline-flex;
+  margin:auto;
+}
+
+
+.item.one{
+  width:28%
+}
+
+
+.item.two{
+  width:50%;
+}
+
+.item.four{
+  width:22%;
+  align-content:right;
+}
+
+.item.five{
+  width:55%;
+}
+
+.item.six{
+  width:30%;
+}
+
+.item.seven{
+  width:40%;
+}
+
+.item.eight{
+  width:30%;
+}
+
+.item.ten{
+  width:70%;
+}
+
+.item.eleven{
+  width:29%;
+}
+
+
+.item.twelve{
+  width:30%;
+}
+
+
+.item.thirteen{
+  width:31.5%;
+}
+
+.item.fourteen{
+  width:61%;
+}
+
+.item.fifteen{
+  width:38%;
+}
+
+
+.item.seventeen{
+  width:38%;
+}
+
+.item.eighteen{
+  width:19%;
+}
+
+.item.nineteen{
+  width:80%;
+  align-content: flex-start;
+}
+.item.twenty{
+  width:75%;
+}
+
+.item.twentyfour{
+  width:23.5%;
+}
+
+.item.twentyfive{
+  width:30%;
+}
+
+.item.twentysix{
+  width:15%;
+}
+.item.twentytwo{
+  width:54%;
+}
+
+
+.item.sixteen{
+  width:47%;
+}
+
+.item.twentyseven{
+  width:30%
+}
+
+.item.thirty{
+  width:22%
+}
+
+.item.twentythree {
+  width:38.5%;
+}
+
+
+
+.item.thirtytwo {
+  width:40%;
+}
+
+
+.item.twentyone {
+  width:20%;
+}
+
+.item.hide {
+  display: none;
+}
+
+iphone 
+@media( max-width:750px; ) {
+
+  .title{
+  display:flex;
+  font-family:W95FA;
+  font-size: 50px;
+  justify-content:flex-start;
+  padding:3px;
+  margin:0px;
+}
+
+.text{
+  text-align:flex;
+  padding:3px;
+  width:80%;
+  font-family: Arial;
+  font-weight: lighter;
+}
+
+
+
+
+
+
